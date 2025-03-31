@@ -1,0 +1,32 @@
+{
+  "cart": [
+    {
+      "id": 1,
+      "title": "Braveheart",
+      "price": 59.99,
+      "img": "https://m.media-amazon.com/images/M/MV5BMzkzMmU0YTYtOWM3My00YzBmLWI0YzctOGYyNTkwMWE5MTJkXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+      "amount": 1
+    },
+    {
+      "id": 2,
+      "title": "The Notebook",
+      "price": 49.50,
+      "img": "https://m.media-amazon.com/images/M/MV5BMTk3OTM5Njg5M15BMl5BanBnXkFtZTYwMzA0ODI3._V1_UX182_CR0,0,182,268_AL_.jpg",
+      "amount": 1
+    },
+    {
+      "id": 3,
+      "title": "Avatar",
+      "price": 45.19,
+      "img": "https://m.media-amazon.com/images/M/MV5BMTYwOTEwNjAzMl5BMl5BanBnXkFtZTcwODc5MTUwMw@@._V1_UX182_CR0,0,182,268_AL_.jpg",
+      "amount": 1
+    },
+    {
+      "id": 4,
+      "title": "Vertigo",
+      "price": 55.77,
+      "img": "https://m.media-amazon.com/images/M/MV5BYTE4ODEwZDUtNDFjOC00NjAxLWEzYTQtYTI1NGVmZmFlNjdiL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_UX182_CR0,0,182,268_AL_.jpg",
+      "amount": 1
+    }
+  ]
+}
