@@ -1,11 +1,12 @@
 import React from 'react'
 import CartItem from './CartItem'
+import {useCartState, useCartDispatch} from '../context/context'
 
 const CartContainer = () => {
-  const total = 10
-  const items = true
+  const {total, cart} = useCartState();
+  const {clearCart} = useCartDispatch();
 
-  if (items) {
+  if (cart.length === 0) {
     return (
       <section className='cart'>
         {/* cart header */}
@@ -25,8 +26,8 @@ const CartContainer = () => {
       </header>
       {/* cart items */}
       <div>
-        {[1].map((item) => {
-          return <CartItem/>
+        {cart.map((item) => {
+          return <CartItem key={item.id} {...item} />
         })}
       </div>
       {/* cart footer */}
@@ -37,7 +38,7 @@ const CartContainer = () => {
             total <span>{total}€</span>
           </h4>
         </div>
-        <button className='btn clear-btn'>
+        <button className='btn clear-btn' onClick={clearCart}>
           clear cart
         </button>
       </footer>

@@ -1,7 +1,8 @@
 import React from 'react'
+import {useCartState, useCartDispatch} from '../context/context'
 
 const Navbar = () => {
-  const amount = 10
+  const {amount} = useCartState();
 
   return (
     <nav>
